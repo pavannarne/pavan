@@ -2,33 +2,42 @@ package kid;
 
 /**
  * SalesData is a class to demonstrates the sales
+ * 
  * @author PavaN
- *
+ * 
  */
-public class SalesData
-
-{
-	
-	/**
-	 * data[] is an array which holds the number of elements 
-	 */
-int data[]={0,4,42};
-
-
-/**
- * display is a method 
- * to displays the SalesData
- */
-public void display()
-
-{
-	
-	
-	/**
-	 * displays the string
-	 */
-System.out.println("TODO : Implement data display");
-
-}
+public class SalesData {
+     /**
+      * 
+      */
+	 private int departmentId;
+	 /**
+	  * 
+	  */	 
+	 private String departmentName;
+	 /**
+	  * 
+	  */
+	 private double salesData;
+	 
+	 
+	public int getDepartmentId() {
+		return departmentId;
+	}
+	public void setDepartmentId(int departmentId) {
+		this.departmentId = departmentId;
+	}
+	public String getDepartmentName() {
+		return departmentName;
+	}
+	public void setDepartmentName(String departmentName) {
+		this.departmentName = departmentName;
+	}
+	public double getSalesData() {
+		return salesData;
+	}
+	public void setSalesData(double salesData) {
+		this.salesData = salesData;
+	}
 
 }

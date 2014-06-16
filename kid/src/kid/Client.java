@@ -8,14 +8,16 @@ public class Client
 	public static void main(String args[])
 	
 	{
-		
-	SalesData data = new SalesData();
-	data.display();
-	displayGreeting();
+    
+	SalesData = Repository.getSalesData(departmentId);
+	
 	
 	}
-	
-	private static void displayGreeting()
+	/**
+	 * display sales data in nice format
+	 * @param salesData
+	 */
+	private static void displaySalesData(SalesData salesData)
 	
 	{
 		
