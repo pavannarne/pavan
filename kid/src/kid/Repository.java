@@ -42,7 +42,9 @@ import java.util.ArrayList;
 		 * @return
 		 */
 		private static ArrayList<SalesData> generateSalesData() {
-			ArrayList<SalesData> salesDataList = new ArrayList<SalesData>();
+			
+			
+			//salesDataList.add(e)
 			/**
 			 * generate your Sales data and return
 			 */
